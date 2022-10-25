@@ -6,6 +6,7 @@ import math as m
 
 d = 4
 
+print('Первая задача')
 print(round(m.pi, d))
 print(str(m.pi)[:2 + d])
 
@@ -31,6 +32,7 @@ def list_of_simple (n):
 
 
 numb = 12
+print('Вторая задача')
 print(list_of_simple(numb))
 
 # 3. Задайте последовательность чисел. 
@@ -47,6 +49,8 @@ for i in my_list:
         my_set_double.add(i)
 
 my_set = my_set.difference(my_set_double)
+
+print('Третья задача')
 print(my_set)
 
 # 4. Задана натуральная степень k. 
@@ -56,6 +60,7 @@ print(my_set)
 
 import random
 
+print('Четвертая задача')
 k = 2
 my_dic_4 = dict()
 str_dic = ' = 0'
